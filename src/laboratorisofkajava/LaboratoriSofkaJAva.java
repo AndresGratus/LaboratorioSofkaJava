@@ -15,7 +15,10 @@ public class LaboratoriSofkaJAva {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Juego obj = new Juego();
+        
+        obj.llenarArreglo();
+        obj.iniciarJuegoVentana();
         
     }
     

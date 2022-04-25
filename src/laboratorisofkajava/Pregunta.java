@@ -5,7 +5,10 @@ package laboratorisofkajava;
 public class Pregunta {
     String Question,OpcionA,OpcionB,OpcionC,OpcionD;
     String CorrectOpcion;
-
+    
+    public Pregunta(){
+        
+    }
     public Pregunta(String Question, String OpcionA, String OpcionB, String OpcionC, String OpcionD, String CorrectOpcion) {
         this.Question = Question;
         this.OpcionA = OpcionA;
